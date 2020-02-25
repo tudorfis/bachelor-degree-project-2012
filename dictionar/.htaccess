@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /dictionar/
+RewriteRule romana/((.)+)/$ ?denumire=$1&lang=ro
+RewriteRule engleza/((.)+)/$ ?denumire=$1&lang=en
+RewriteRule germana/((.)+)/$ ?denumire=$1&lang=de
+RewriteRule franceza/((.)+)/$ ?denumire=$1&lang=fr

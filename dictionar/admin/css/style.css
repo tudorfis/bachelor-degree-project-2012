@@ -1,0 +1,283 @@
+﻿/* MAIN */
+body {
+margin:0px;
+padding:0px;
+background-color:#F8F8F8;
+}
+
+h1,h2,h3,h4,h5,h6 { margin:5px; }
+h1 { font-size:22px;}
+a { text-decoration:none; color:#222; cursor:pointer;}
+table td {padding:0px;margin:0px;vertical-align:top;}
+table tr {padding:0px;margin:0px;}
+table {padding:0px;margin:0px;}
+img { vertical-align:middle; margin-right:15px; border:0px;}
+input[type="radio"] {vertical-align:middle;}
+input[type="submit"] { font-size:18px; cursor:pointer;} 
+input,select {border:1px solid #999;}
+option { border:1px solid #EEE;}
+textarea {border:1px solid #AAA; background-color:#FAFAFA;resize:both;}
+hr { border:1px solid #DDD;margin-top:20px;}
+
+
+.block {display:block;}
+.inline {display:inline;}
+.left { float:left;}
+.right { float:right;}
+.clear { clear:both; }
+.box {
+width:300px;
+height:100px;
+padding:20px;
+border:0px solid #CCC;
+border-radius: 15px;
+text-align:left;
+background-color:#F3F3F3;
+}
+.box:hover {background-color:#FCFCFC;}
+
+
+#wrap {
+width:89%;
+margin-left:5%;
+margin-right:5%;
+text-align:center;
+padding-bottom:50px;
+padding-top:50px;
+background-color:#F0F0F0;
+}
+#header {margin-bottom:30px;}
+#logo {width:120px;height:120px;margin: 0px 0xp 0px 0px;}
+
+
+table#control {
+width:750px;
+margin-left:auto;
+margin-right:auto;
+}
+table#control td {padding:10px;}
+
+
+
+#footer{margin-top:25px;}
+#footer ul li {
+list-style-type:none;
+display: inline;
+margin-left:15px;
+color:#777;
+}
+#footer ul li a {text-decoration:none;}
+#footer ul li a:hover {color: #333;text-decoration: underline;}
+#up {position:fixed;right:0px;bottom:0px;}
+
+
+/* TOP HEADER */
+
+#top_header {
+position:fixed;
+top:0px;
+left:0px;
+width:100%;
+padding:5px;
+background-color:#CCC;
+text-align:left;
+border-bottom:1px solid #FFF;
+}
+#top_header  a.submit {  padding:3px; margin-left:5px; background-color:#FFF; border:1px solid #CCC;  max-width:40px; font-size:12px;}
+#top_header ul li {
+display:inline;
+list-style-type:none;
+padding-right:25px;
+}
+#top_header a {padding:10px;}
+#top_header a:hover {background-color:#FFF;}
+
+
+
+/* SELECT INSERT DELETE UPDATE */
+
+#index {min-height:600px;}
+#select, #insert, #update, #delete {text-align:left;padding:15px 30px 15px 30px;min-height:600px;}
+
+
+#query {
+padding:15px;
+background-color:#FFF;
+color: #000066;
+margin-bottom:20px;
+}
+
+#error {
+background-color:#e4BEBE;
+color:#990000;
+padding:15px;
+margin-bottom:20px;
+}
+
+#succes {
+background-color:#AAE591;
+padding:20px;
+text-align:center;
+}
+
+/* ALL */
+table td.submit { text-align:right;}
+table td.submit  input {font-size: 24px;}
+.nr_div{width:50px;}
+#content { text-align:center;}
+
+/*******************************/
+
+
+
+
+/*   SELECT   */
+
+#select label { margin-left:15px; }
+#select input[type="text"] { width:35px;}
+#select table {
+border:1px solid #AAA;
+}
+#select table td {
+padding:5px;
+border:1px solid #FFF;
+}
+#select table tr:first-child{
+font-weight:bold;
+background-color:#CCC;
+}
+#select table img {
+width:30px;
+height:30px;
+margin-left:15px;
+}
+#select table img.denumire_img {
+width:100px;
+height:100px;
+margin:10px;
+float:right;
+}
+#select table textarea { min-height:150px; width:150px;border:0px;}
+#select a.submit {  padding:3px; margin-left:5px; background-color:#FFF; border:1px solid #CCC;  max-width:40px; font-size:12px;}
+#select a.img_go img { width:100px; height:100px;}
+
+
+
+/*   INSERT   */
+
+#insert  input{ width:200px;}
+#insert  textarea { width: 200px; }
+#insert textarea.definitie { min-height: 150px; }
+
+#insert table tr#second td , #insert table tr:first-child td { padding: 15px; font-weight:bold;} 
+#insert table td { padding-right: 30px; }
+
+#insert  input.video_embed { width:110px; }
+#insert select { margin-bottom:10px;}
+.button { background-color:#FFF; border:1px solid #CCC;margin-bottom:10px; max-width:50px;}
+
+
+
+
+/*   UPDATE   */
+
+
+/* Search result */
+.search_result {
+border:1px solid #CCC;
+background-color:#FFF;
+width:400px;
+height:200px;
+margin-top:50px;
+word-wrap:break-word;
+overflow: auto;
+resize:both;
+float:left;
+margin:10px;
+padding:20px;
+}
+.search_result img{
+width:100px;
+height:100px;
+margin:15px;
+}
+img.flag {
+width:	15px;
+height: 10px;
+}
+
+
+
+#update  input{ width:200px;}
+#update input.uid { width: 70px; }
+#update  textarea { width: 200px; }
+#update textarea.definitie { min-height: 150px; }
+
+#update table tr#second td , #update table tr:first-child td { padding: 15px; font-weight:bold;} 
+#update table td { padding-right: 45px; }
+
+#update  input.video_embed { width:115px; }
+#update select { margin-bottom:10px;}
+.button { background-color:#FFF; border:1px solid #CCC;margin-bottom:10px; margin-right:5px; max-width:50px;}
+
+#update table td.submit { text-align:right;}
+#update table td.submit  input {font-size: 22px;}
+#update a.submit {  padding:10px;background-color:#FFF;border:1px solid #CCC;margin-bottom:10px; margin-right:5px; max-width:50px; cursor:pointer; }
+
+#update .last { margin-bottom:15px;}
+#update .img_submit { width: 100px;}
+
+#update input[type=submit].img_delete {float:right;}
+#update input[type=text].img_delete {background-color:#EEE;border:0px;width:90px;}
+
+#update .img_box {
+padding:15px 0px 0px 15px;
+width:auto;
+border:1px solid #CCC;
+cursor:pointer;
+float:left;
+margin:7px;
+}
+#update .img_box:hover{background-color:#DDD;}
+#update .img_box p {font-size:12px;text-align:left;cursor:pointer;}
+#update .img_box img {
+width:120px;
+height:120px;
+cursor:pointer;
+}
+#update .img_box input {
+width:15px;
+cursor:pointer;
+}
+
+
+
+
+/*   DELETE   */
+#delete  input{ width:200px;}
+#delete input.uid { width: 70px; }
+#delete input[type=submit].img_delete {float:right;}
+#delete input[type=text].img_delete {
+background-color:#EEE;
+border:0px;
+width:90px;
+}
+#delete .img_box {
+padding:15px 0px 0px 15px;
+width:auto;
+border:1px solid #CCC;
+cursor:pointer;
+float:left;
+margin:7px;
+}
+#delete .img_box:hover{background-color:#DDD;}
+#delete .img_box p {
+font-size:12px;
+text-align:left;
+cursor:pointer;
+}
+#delete .img_box img {
+width:120px;
+height:120px;
+cursor:pointer;
+}

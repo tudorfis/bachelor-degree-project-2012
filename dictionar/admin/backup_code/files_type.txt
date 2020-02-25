@@ -1,0 +1,41 @@
+[img] => Array ( 
+
+
+[name] => Array ( 
+[0] => skateboard.jpg 
+[1] => skateboard.png 
+[2] => toti.jpg 
+[3] => usb_stick.jpg 
+[4] => usasdasdasdick.gif 
+) 
+
+
+[type] => Array ( 
+[0] => image/jpeg 
+[1] => image/png 
+[2] => image/jpeg 
+[3] => image/jpeg
+[4] => image/gif) 
+
+
+[tmp_name] => Array ( 
+[0] => D:\xampp\tmp\php403.tmp 
+[1] => D:\xampp\tmp\php404.tmp 
+[2] => D:\xampp\tmp\php405.tmp 
+[3] => D:\xampp\tmp\php406.tmp ) 
+
+
+[error] => Array ( 
+[0] => 0 
+[1] => 0 
+[2] => 0 
+[3] => 0 ) 
+
+
+[size] => Array ( 
+[0] => 121831 
+[1] => 1420388 
+[2] => 65863 
+[3] => 88757 ) 
+
+)

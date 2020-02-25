@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Dictionar Multimedia - Admin"
+AuthUserFile "/home/kmtelr/.htpasswds/public_html/dictionar/admin/.htpasswd"
+require valid-user

@@ -1,0 +1,23 @@
+#vtip {color:#FFF;max-width:70%;display:none;position:absolute;font-size:11px;padding:3px 5px;z-index: 19999;border: 0px solid #999;background-color: #555;}
+#vtip #vtipArrow {position:absolute;bottom:-8px;left:10px;opacity:1;}
+#vtip h1,#vtip h2,#vtip h3,#vtip h4,#vtip h5,#vtip h6{margin:0; font-size:16px; font-family:arial;font-weight:bold;color:#000000;text-shadow:none;}
+#vtip a {color:blue;text-decoration:underline;}
+
+
+/* 2.0 changes */
+#vtipArrow{
+	height:8px;
+	width:15px;
+	background-image: url('http://localhost/dictionar/img/vtip_arrow.png');
+	}
+
+/* IE6 fix */
+* html #vtip {background-color:white; border:1px solid #777;}
+* html #vtipArrow {display:none;}
+/* IE7 fix */
+*+html #vtip {background-color:white; border:1px solid #777;}
+*+html #vtipArrow {display:none;}
+
+/* hide div when not editing layout */
+.gpArea_vTip_White.output_area {display:block;}
+.gpArea_vTip_White {display:none;}

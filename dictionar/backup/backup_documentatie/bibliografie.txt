@@ -1,0 +1,7 @@
+Webdesign
+	-scripts
+		gallery - http://coffeescripter.com/code/ad-gallery/
+		tooltip - http://gpeasy.com/Special_Addon_Plugins?id=72
+		
+	-fonts
+		BaroqueScript.ttf
